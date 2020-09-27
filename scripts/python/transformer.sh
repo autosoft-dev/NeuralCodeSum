@@ -49,7 +49,7 @@ PYTHONPATH=$SRC_DIR CUDA_VISIBLE_DEVICES=$RGPU python -W ignore ${SRC_DIR}/main/
 --max_examples -1 \
 --batch_size 16 \
 --test_batch_size 64 \
---num_epochs 5 \
+--num_epochs 200 \
 --model_type transformer \
 --num_head 12 \
 --d_k 64 \
