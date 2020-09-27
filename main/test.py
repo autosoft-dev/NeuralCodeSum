@@ -204,6 +204,7 @@ def build_translator(model, args):
                             block_ngram_repeat=args.block_ngram_repeat,
                             ignore_when_blocking=args.ignore_when_blocking,
                             replace_unk=args.replace_unk)
+
     return translator
 
 
