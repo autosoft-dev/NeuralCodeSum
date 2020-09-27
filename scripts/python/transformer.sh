@@ -44,14 +44,14 @@ PYTHONPATH=$SRC_DIR CUDA_VISIBLE_DEVICES=$RGPU python -W ignore ${SRC_DIR}/main/
 --emsize 512 \
 --fix_embeddings False \
 --src_vocab_size 50000 \
---tgt_vocab_size 30000 \
+--tgt_vocab_size 40000 \
 --share_decoder_embeddings True \
 --max_examples -1 \
 --batch_size 32 \
 --test_batch_size 64 \
 --num_epochs 5 \
 --model_type transformer \
---num_head 8 \
+--num_head 12 \
 --d_k 64 \
 --d_v 64 \
 --d_ff 2048 \
@@ -59,7 +59,7 @@ PYTHONPATH=$SRC_DIR CUDA_VISIBLE_DEVICES=$RGPU python -W ignore ${SRC_DIR}/main/
 --tgt_pos_emb True \
 --max_relative_pos 32 \
 --use_neg_dist True \
---nlayers 6 \
+--nlayers 12 \
 --trans_drop 0.2 \
 --dropout_emb 0.2 \
 --dropout 0.2 \
