@@ -59,7 +59,7 @@ PYTHONPATH=$SRC_DIR CUDA_VISIBLE_DEVICES=$RGPU python -W ignore ${SRC_DIR}/main/
 --tgt_pos_emb True \
 --max_relative_pos 32 \
 --use_neg_dist True \
---nlayers 10 \
+--nlayers 6 \
 --trans_drop 0.2 \
 --dropout_emb 0.2 \
 --dropout 0.2 \
